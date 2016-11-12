@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<html>
+<html  ng-app="Resume">
 
-<head ng-app="Resume">
+<head>
 	<base href="/">
 	<meta charset="utf-8">
 	<meta name="fragment" content="!">
@@ -17,13 +17,18 @@
 	<meta property="description" content="{{seo.description }}">
 	<meta property="og:description" content="{{ seo.description }}">
 	<meta property="twitter:description" content="{{ seo.description }}">
-
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="controllers.js">
+	<link rel="stylesheet" href="services.js">
+	<link rel="stylesheet" href="app.js">
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.8/angular.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.8/angular-route.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.8/angular-resource.js"></script>
 </head>
 
 <body>
+	
+	<div ng-view>		</div>
 </body>
-<div ng-view></div>
+
 </html>
