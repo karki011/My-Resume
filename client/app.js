@@ -1,16 +1,13 @@
-angular.module('Resume',['ngResource', 'ngRoute', 'Resume.controllers', 'Resume.services'])
+angular.module('Resume',['ngRoute', 'ngResource'])
 
 .config([ '$routeProvider', '$locationProvider', function($routeProvider, $locationProvider){
     $locationProvider.html5Mode(true);
     $routeProvider
         .when('/', {
-            templateUrl: "views/welcome.html",
-            controller: 'WelcomeController'
+            templateUrl: "views/welcome.html"
+            
         })
-        .when('/contact' , {
-            templateUrl: "views/contact.html",
-            controller: 'ContactController'
-        })
+
         .otherwise({
             redirectTo: '/'
         });
