@@ -1,5 +1,11 @@
 
-
+@font-face{
+    font-family: "koliko";
+    src: url("./ttf/koliko-Bold.ttf");
+}
+body{
+    font-family: "koliko-Bold.ttf"
+}
 .card {
   font-weight: 200;
 }
