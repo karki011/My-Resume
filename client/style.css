@@ -1,1 +1,90 @@
-/* YOUR CUSTOM STYLES */
+
+
+.card {
+  font-weight: 200;
+}
+.section.bio {
+  background-color: black !important;
+}
+#download-button {
+  border: 1px solid black;
+  opacity: 0.5;
+}
+.work {
+  font-size: 24px;
+  font-weight: 200;
+}
+.button-collapse {
+  color: #03a9f4 !important;
+}
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.button-collapse {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+img {
+  /* opacity: 0.85; */
+  -webkit-filter: contrast(2.2) grayscale(0.5)brightness(0.4)invert(0.2)sepia(0.4)opacity(0.75);
+}
+body {
+  background: black;
+}
+h5 {
+  font-weight: 200;
+}
+.card .card-image img {
+    height: 200px;
+}
+.parallax-container {
+    height: 300px;
+}
+
+
+.parallax img {
+     display: block; 
+
+}

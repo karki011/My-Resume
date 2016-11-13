@@ -18,18 +18,40 @@
 	<meta property="og:description" content="{{ seo.description }}">
 	<meta property="twitter:description" content="{{ seo.description }}">
 	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="hover.css">
 	<!--<script src="controllers.js"></script>-->
 	<!--<script src="services.js"></script>-->
+	  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	  <link rel="stylesheet" href="materialize.css">
+	  <script src="materialize.js"></script>
+
 	<script src="https://code.jquery.com/jquery-3.1.1.js" integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA=" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.8/angular.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.8/angular-route.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.8/angular-resource.js"></script>
-  	<script src="app.js"></script>
-
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.8/angular-route.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.8/angular-resource.js"></script>
+	<!-- Compiled and minified CSS -->
+	<!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">-->
+	<!-- Compiled and minified JavaScript -->
+	<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>-->
+	<script src="app.js"></script>
 </head>
 
 <body>
-	<div ng-view></div>
+
+
+	<div  ng-view></div>
+
+     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+      <script type="text/javascript" src="materialize.js"></script>
+	<script>
+		(function($){
+		$(function(){
+		$('.button-collapse').sideNav();
+		$('.parallax').parallax();
+		});
+		})(jQuery); 
+	</script>
+	
 </body>
 
 </html>
