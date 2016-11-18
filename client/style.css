@@ -15,6 +15,7 @@ body{
 #download-button {
   border: 1px solid black;
   opacity: 0.5;
+  bottom: 4em;
 }
 .work {
   font-size: 24px;
@@ -91,6 +92,6 @@ h5 {
 
 
 .parallax img {
-     display: block; 
+     display: block;
 
 }
